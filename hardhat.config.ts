@@ -11,6 +11,7 @@ import 'hardhat-deploy'
 import 'hardhat-gas-reporter'
 import { HardhatUserConfig } from 'hardhat/config'
 import { promisify } from 'util'
+import'@openzeppelin/hardhat-upgrades';
 
 const exec = promisify(_exec)
 
@@ -62,7 +63,7 @@ const config: HardhatUserConfig = {
       accounts: real_accounts,
     },
     goerli: {
-      url: `https://goerli.infura.io/v3/${process.env.INFURA_API_KEY}`,
+      url: `https://goerli.infura.io/v3/c056557f1d3848dbab26c6486c8930dd`,
       tags: ['test', 'legacy', 'use_root'],
       chainId: 5,
       accounts: real_accounts,

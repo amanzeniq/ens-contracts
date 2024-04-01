@@ -4,6 +4,8 @@
 
 For documentation of the ENS system, see [docs.ens.domains](https://docs.ens.domains/).
 
+## remixd -s ~/Desktop/Aman/ZENIQ/ens-all/ens-contracts/ --remix-ide https://remix.ethereum.org
+
 ## npm package
 
 This repo doubles as an npm package with the compiled JSON contracts
@@ -170,3 +172,5 @@ yarn pub
 ### Release flow
 
 Smart contract development tends to take a long release cycle. To prevent unnecessary dependency conflicts, please create a feature branch (`features/$BRNACH_NAME`) and raise a PR against the feature branch. The feature branch must be merged into master only after the smart contracts are deployed to the Ethereum mainnet.
+
+remixd -s ~/Desktop/Aman/ZENIQ/ens-contracts/ --remix-ide https://remix.ethereum.org

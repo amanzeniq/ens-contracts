@@ -28,6 +28,7 @@
     "@nomiclabs/hardhat-truffle5": "^2.0.0",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "@nomiclabs/hardhat-web3": "^2.0.0",
+    "@openzeppelin/hardhat-upgrades": "^1.22.1",
     "@openzeppelin/test-helpers": "^0.5.11",
     "@types/mocha": "^9.1.1",
     "@types/node": "^18.0.0",
@@ -37,7 +38,7 @@
     "envfile": "^6.17.0",
     "ethereum-waffle": "^3.3.0",
     "ethers": "^5.6.1",
-    "hardhat": "^2.9.9",
+    "hardhat": "^2.13.0",
     "hardhat-abi-exporter": "^2.9.0",
     "hardhat-contract-sizer": "^2.6.1",
     "hardhat-deploy": "^0.11.10",
@@ -57,6 +58,7 @@
     "@ensdomains/buffer": "^0.1.1",
     "@ensdomains/solsha1": "0.0.3",
     "@openzeppelin/contracts": "^4.1.0",
+    "@remix-project/remixd": "^0.6.13",
     "dns-packet": "^5.3.0"
   },
   "directories": {
